@@ -5,3 +5,4 @@ new server on linux
 test post-receive
 test again
 forget chmod +x
+test jenkins
