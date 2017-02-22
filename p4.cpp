@@ -1,7 +1,8 @@
-#include <stdlib>
-using namespace std
+#include <cstdlib>
+#include <iostream>
+using namespace std;
 
-main(){
+int main(){
 		int* a;
 		double* b;
 		cout<<"1"<<endl;
