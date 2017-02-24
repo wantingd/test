@@ -13,7 +13,7 @@ int main(){
 	int num[n];
 	int piv=0;
 	int abc;
-	int i;
+	int i,j;
 	for(i=0; i<n; i++) { cin >> num[i];}
 	if(type == 5) piv = partitionIn(num, 0, n-1);
 	if(type == 4) abc = partitionIn(num, 0, n-1);
