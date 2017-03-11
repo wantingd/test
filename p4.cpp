@@ -14,6 +14,7 @@ int main(){
 	int piv=0;
 	int abc;
 	int i,j,k;
+	double x;
 	for(i=0; i<n; i++) { cin >> num[i];}
 	if(type == 5) piv = partitionIn(num, 0, n-1);
 	if(type == 4) abc = partitionIn(num, 0, n-1);
